@@ -1,0 +1,23 @@
+
+# Credentials and secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local vector databases
+chroma_db/
+*.sqlite3
+
+# VS Code local settings
+.vscode/
