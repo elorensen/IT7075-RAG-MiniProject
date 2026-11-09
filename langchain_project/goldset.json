@@ -1,0 +1,80 @@
+{
+  "about": "Custom eight-question gold set for original synthetic SOC knowledge base",
+  "kb_files": [
+    "email_authentication.md",
+    "incident_response.md",
+    "malware_analysis.md",
+    "phishing_triage.md",
+    "security_awareness.md"
+  ],
+  "questions": [
+    {
+      "qid": "Q1",
+      "question": "What details should an analyst record before classifying a reported phishing email?",
+      "source": "phishing_triage.md",
+      "evidence": [
+        "sender domain, reply-to address, and authentication results"
+      ],
+      "answerable": true
+    },
+    {
+      "qid": "Q2",
+      "question": "Which email authentication policies or dispositions does DMARC commonly describe?",
+      "source": "email_authentication.md",
+      "evidence": [
+        "none, quarantine, and reject"
+      ],
+      "answerable": true
+    },
+    {
+      "qid": "Q3",
+      "question": "What should the incident lead consider if an account takeover is suspected?",
+      "source": "incident_response.md",
+      "evidence": [
+        "disabling active sessions or resetting credentials"
+      ],
+      "answerable": true
+    },
+    {
+      "qid": "Q4",
+      "question": "What does an analyst document when collecting incident evidence?",
+      "source": "incident_response.md",
+      "evidence": [
+        "collection time, source system, collector, and a protected storage location"
+      ],
+      "answerable": true
+    },
+    {
+      "qid": "Q5",
+      "question": "Where can analysts execute a suspicious malware sample?",
+      "source": "malware_analysis.md",
+      "evidence": [
+        "isolated, approved malware-analysis environment"
+      ],
+      "answerable": true
+    },
+    {
+      "qid": "Q6",
+      "question": "How should employees report suspicious email messages?",
+      "source": "security_awareness.md",
+      "evidence": [
+        "approved phishing-reporting button or security help channel"
+      ],
+      "answerable": true
+    },
+    {
+      "qid": "Q7",
+      "question": "What is the capital city of Iceland?",
+      "source": null,
+      "evidence": [],
+      "answerable": false
+    },
+    {
+      "qid": "Q8",
+      "question": "What is the exact annual dollar budget for the fictional SOC security awareness program?",
+      "source": null,
+      "evidence": [],
+      "answerable": false
+    }
+  ]
+}
